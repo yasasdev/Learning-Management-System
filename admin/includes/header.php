@@ -26,6 +26,12 @@ require 'authentication.php';
     <link href="assets/css/custom.css" rel="stylesheet" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body{
+            background: #6A9C89;
+        }        
+    </style>
     
 </head>
 <body class="sb-nav-fixed">
