@@ -9,7 +9,7 @@
         </div>
 
         <div class="col-md-3 mb-3">
-            <div class="card card-body bg-success p-3 color">
+            <div class="card card-body bg-primary p-3 color">
                 <p class="text-sm mb-0 text-capitalize" style="color: white;">Total Book Categories</p>
                 <h5 class="fw-bold mb-0">
                     <?= getCount('categories'); ?>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="col-md-3 mb-3">
-            <div class="card card-body bg-success p-3">
+            <div class="card card-body bg-primary p-3">
                 <p class="text-sm mb-0 text-capitalize" style="color: white;">Total Number of Books</p>
                 <h5 class="fw-bold mb-0">
                     <?= getCount('products'); ?>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="col-md-3 mb-3">
-            <div class="card card-body bg-success p-3">
+            <div class="card card-body bg-primary p-3">
                 <p class="text-sm mb-0 text-capitalize" style="color: white;">Total Admins</p>
                 <h5 class="fw-bold mb-0">
                     <?= getCount('admins'); ?>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="col-md-3 mb-3">
-            <div class="card card-body bg-success p-3">
+            <div class="card card-body bg-primary p-3">
                 <p class="text-sm mb-0 text-capitalize" style="color: white;">Total Number of Students</p>
                 <h5 class="fw-bold mb-0">
                     <?= getCount('customers'); ?>
@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-md-12 mb-3">
-            <div class="card card-body bg-success p-3">
+            <div class="card card-body bg-primary p-3">
                 <p class="text-sm mb-0 text-capitalize" style="color: white;">Number of Books added (Today)</p>
                 <h5 class="fw-bold mb-0">
                     <?php
@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <a href="file-upload.php" class="btn btn-info">Upload PDF</a>
+    <a href="file-upload.php" class="btn btn-warning">Upload PDF</a>
 </div>
 
 <?php include('includes/footer.php'); ?>
