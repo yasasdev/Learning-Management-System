@@ -29,7 +29,7 @@ require 'authentication.php';
 
     <style>
         body{
-            background: #6A9C89;
+            background: #E9EFEC;
         }        
     </style>
     
